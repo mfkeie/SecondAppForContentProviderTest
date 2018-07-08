@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="elegion.com.secondappforcontentprovidertest.MainActivity">
+
+    <Spinner
+        android:id="@+id/spinner_entity"
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="15dp">
+    </Spinner>
+
+    <Spinner
+        android:id="@+id/spinner_action"
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="15dp">
+    </Spinner>
+
+    <EditText
+        android:id="@+id/et_id"
+        android:padding="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="id"/>
+
+    <Button
+        android:id="@+id/btn_action"
+        android:padding="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Выполнить"
+        />
+
+    <EditText
+        android:id="@+id/et_val1"
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        tools:text="value 1"/>
+
+    <EditText
+        android:id="@+id/et_val2"
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        tools:text="value 2"/>
+
+    <EditText
+        android:id="@+id/et_val3"
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        tools:text="value 3"/>
+
+</LinearLayout>
