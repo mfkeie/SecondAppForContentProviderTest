@@ -38,23 +38,23 @@
 
     <EditText
         android:id="@+id/et_val1"
-        android:padding="15dp"
+        android:padding="6dp"
         android:layout_width="match_parent"
-        android:layout_height="15dp"
+        android:layout_height="wrap_content"
         tools:text="value 1"/>
 
     <EditText
         android:id="@+id/et_val2"
-        android:padding="15dp"
+        android:padding="6dp"
         android:layout_width="match_parent"
-        android:layout_height="15dp"
+        android:layout_height="wrap_content"
         tools:text="value 2"/>
 
     <EditText
         android:id="@+id/et_val3"
-        android:padding="15dp"
+        android:padding="6dp"
         android:layout_width="match_parent"
-        android:layout_height="15dp"
+        android:layout_height="wrap_content"
         tools:text="value 3"/>
 
 </LinearLayout>
